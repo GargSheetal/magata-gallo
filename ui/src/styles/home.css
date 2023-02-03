@@ -1,0 +1,40 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+.logo-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(35, 29, 29);
+    width: 300px;
+    height: 120px;
+    object-fit: fill;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(200, 223, 223);
+    padding: 0.5rem;
+}
+
+nav li {
+    display: inline-block;
+    align-content: stretch;
+}
+
+.footer-logo {
+    background-color: rgb(35, 29, 29);
+    width: 80px;
+    height: auto;
+    object-fit: fill;
+}

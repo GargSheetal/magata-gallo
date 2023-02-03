@@ -1,1 +1,1 @@
-# magata-gallo
+# mangata-gallo

@@ -24,12 +24,55 @@ nav ul {
     list-style: none;
     text-align: center;
     background-color: rgb(200, 223, 223);
+    list-style-type: none;
     padding: 0.5rem;
 }
 
 nav li {
     display: inline-block;
     align-content: stretch;
+   font: 18px solid;
+}
+
+li a {
+    color: rgb(115, 23, 115);
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.jewelry-images {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div > .offers {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div > .shop-now {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-weight: normal;
+    text-align: center;
+}
+.shop-now:hover {
+    background-color: rgb(156, 200, 188);
+    padding: 5px;
 }
 
 .footer-logo {

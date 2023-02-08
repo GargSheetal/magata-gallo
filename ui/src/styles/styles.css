@@ -21,8 +21,10 @@ body {
 }
 
 .logo-image {
+    /* display: flex; */
     height: 70px;
-    object-fit: fill;
+    width: 100%;
+    object-fit: scale-down;
 }
 
 nav ul {
@@ -85,7 +87,6 @@ section#home-design video {
     align-items: center;
     padding: 25px;
     width: 100%;
-    flex: 1 1 0;
 }
 
 .shop-container {
@@ -94,7 +95,7 @@ section#home-design video {
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 25%;
+    width: 400px;
 }
 
 img .item {
@@ -156,29 +157,22 @@ img .item {
 
 .footer-navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    height: 300px;
+    padding-bottom: 70px;
     flex-wrap: wrap;
 }
-.nav-footer-0 {
+.nav-footer {
     display: flex;
     font-size: 1rem;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
     width: 250px;
-}
-.nav-footer-1 {
-    display: flex;
-    font-size: 1rem;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-    width: 200px
+    padding-bottom: 20px;
 }
 
 .nav-footer-list {
